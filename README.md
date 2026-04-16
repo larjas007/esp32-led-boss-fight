@@ -2,80 +2,82 @@
 
 A real-time embedded game system prototyped in Python and implemented on ESP32 using WS2812B LEDs, button input, and event-driven audio.
 
-## Portfolio focus
-This project showcases the translation of gameplay logic from software prototyping into a physical interactive system.
+---
 
-It highlights skills in:
+## Quick links
+- [Firmware](firmware/esp32_led_boss_fight.ino)
+- [Hardware](hardware/README.md)
+- [Technical Docs](docs/README.md)
+- [Gallery](gallery/README.md)
+- [Web Demo](web-demo/README.md)
+
+---
+
+## Portfolio highlights
 - Embedded systems development
-- Game logic design
-- Real-time interaction systems
-- Event-driven programming
+- Real-time game logic
 - Collision handling
-- Hardware input integration
+- Event-driven programming
 - Audio feedback systems
-- Rapid prototyping and iteration
-- Technical problem solving
-- System design under hardware constraints
+- Hardware input integration
+- LED rendering and interaction
+- Rapid prototyping from Python to embedded hardware
+- Technical debugging and iteration
+
+---
 
 ## Project overview
-This game began as a Python prototype used to test gameplay structure, timing, collisions, and progression logic.  
-It was later adapted to an ESP32-based hardware version with:
+This project started as a Python gameplay prototype and evolved into an ESP32-based interactive game using a 100-pixel WS2812B LED strip, three color-coded buttons, and buzzer-based sound feedback.
 
-- 100-pixel WS2812B LED strip rendering
-- 3 color-coded input buttons
-- buzzer-based sound feedback
-- boss and minion wave system
-- color-matching projectile mechanic
+The game combines:
+- boss and minion wave logic
+- color-matched projectiles
+- real-time collision handling
 - progressive difficulty scaling
+- event-based sound cues
+- simple but readable state-based architecture
 
-The result is a compact embedded arcade-style game that combines software logic, hardware control, and player feedback systems.
+---
 
 ## Core systems
+
 ### State machine
-The game is organized around clear runtime states:
+The game is organized around three runtime phases:
 - `hiatus`
 - `spawning`
 - `playing`
 
-This keeps the flow structured and makes the behavior easier to scale and debug.
-
-### Gameplay logic
-Core gameplay includes:
-- boss health system
-- enemy wave spawning
-- projectile firing by color
-- movement timing
-- penalty and reward logic
-- win-state reset loop
+This structure keeps gameplay flow clear, modular, and easier to debug.
 
 ### Collision system
-The collision system checks projectile positions against enemy positions in real time.
+Projectile positions are checked against minion positions in real time.
 
 Behavior includes:
 - successful hit when projectile color matches enemy color
-- enemy removal on valid collision
-- penalty when the color match is incorrect
-- penalty when a projectile misses and exits the LED range
+- enemy removal on valid hit
+- penalty when colors do not match
+- penalty when a projectile exits the LED range without a hit
 
 ### Difficulty scaling
-Difficulty increases dynamically by reducing movement delay after each cleared wave.
+The game becomes more difficult by reducing enemy movement delay after each cleared wave.
 
 This creates:
-- faster enemy pressure
-- stronger gameplay pacing
-- escalating challenge without changing the basic control scheme
+- faster pacing
+- increased pressure
+- escalating challenge with the same control scheme
 
 ### Audio feedback
-The game uses event-based sound cues for:
+The buzzer is used for gameplay events including:
 - shooting
-- successful hit
-- failed hit / miss
+- valid hit
+- failed hit or miss
 - boss intro
 - victory
 
-This improves feedback, readability, and game feel under simple hardware constraints.
+---
 
 ## Technical skills demonstrated
+
 ### Programming
 - C++
 - Python
@@ -90,36 +92,22 @@ This improves feedback, readability, and game feel under simple hardware constra
 - button input handling
 - buzzer audio output
 
-### Software and workflow
-- Git
-- GitHub
-- VS Code
-
 ### Engineering and design
-- real-time logic
-- system architecture
-- debugging
+- real-time systems thinking
+- state-based logic
+- collision design
 - interaction design
 - iterative prototyping
 - hardware/software translation
 
-## Why this project matters
-This project is not just a hardware demo. It demonstrates the ability to:
-- prototype a game system in software
-- translate logic into embedded hardware
-- manage real-time input, output, and state
-- design under memory and hardware constraints
-- build a playable and understandable interactive product
-
-## Hardware
-- ESP32
-- WS2812B LED strip (100 LEDs)
-- 3 push buttons
-- passive buzzer
+---
 
 ## Repository structure
+
 ```text
 firmware/    ESP32 implementation
-web-demo/    browser-based playable showcase
+hardware/    wiring, pinout, schematics, and parts
 docs/        technical breakdowns
-assets/      images, GIFs, video, diagrams
+gallery/     photos and build images
+web-demo/    browser-playable showcase
+assets/      GIFs, screenshots, visual material

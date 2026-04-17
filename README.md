@@ -27,7 +27,7 @@ A real-time embedded game system prototyped in Python and implemented on ESP32 u
   <img src="hardware/wiring-preview-02.jpg" alt="Wiring preview" width="200">
 </p>
 
-<p align="center"><strong>See the project in action on social media! Suport Me!</strong></p>
+<p align="center"><strong>See the project in action on social media! Support me if you found this project fun!</strong></p>
 
 <p align="center">
   <a href="https://vt.tiktok.com/ZSHvuQUue/">

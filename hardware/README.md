@@ -43,14 +43,3 @@
 |---|---|---|
 | Signal | GPIO 25 | Used for gameplay tones |
 | Ground | GND | Common ground |
-
-## Firmware constants
-
-| Constant | Value |
-|---|---:|
-| `LED_PIN` | `5` |
-| `LED_COUNT` | `100` |
-| `BTN_BLUE` | `14` |
-| `BTN_GREEN` | `27` |
-| `BTN_YELLOW` | `26` |
-| `BUZZER_PIN` | `25` |

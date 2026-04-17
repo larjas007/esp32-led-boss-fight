@@ -95,10 +95,9 @@ Behavior includes:
 - successful hit when projectile color matches enemy color
 - enemy removal on valid hit
 - penalty when colors do not match
-- penalty when a projectile exits the LED range without a hit
 
 ### Difficulty scaling
-The game becomes more difficult by reducing enemy movement delay after each cleared wave.
+The game becomes more difficult by increasing enemys speed after each cleared wave.
 
 This creates:
 - faster pacing
@@ -140,12 +139,3 @@ The buzzer is used for gameplay events including:
 - hardware/software translation
 
 ---
-
-## Repository structure
-
-```text
-firmware/    ESP32 implementation
-hardware/    wiring, pinout, schematics, and parts
-gallery/     photos and build images
-web-demo/    browser-playable showcase
-assets/      GIFs, screenshots, visual material

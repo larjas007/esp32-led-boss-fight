@@ -32,7 +32,6 @@ A real-time embedded game system prototyped in Python and implemented on ESP32 u
 ## Quick links
 - [Firmware](firmware/esp32_led_boss_fight.ino)
 - [Hardware](hardware/README.md)
-- [Technical Docs](docs/README.md)
 - [Gallery](gallery/README.md)
 - [Web Demo](web-demo/README.md)
 
@@ -132,7 +131,6 @@ The buzzer is used for gameplay events including:
 ```text
 firmware/    ESP32 implementation
 hardware/    wiring, pinout, schematics, and parts
-docs/        technical breakdowns
 gallery/     photos and build images
 web-demo/    browser-playable showcase
 assets/      GIFs, screenshots, visual material

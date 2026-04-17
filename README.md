@@ -52,7 +52,7 @@ A real-time embedded game system prototyped in Python and implemented on ESP32 u
 
 ---
 
-## Portfolio highlights
+## Highlights
 - Embedded systems development
 - Real-time game logic
 - Collision handling

@@ -5,6 +5,56 @@
   <img src="wiring-preview-01.jpg" alt="Wiring preview" width="700">
   <img src="wiring-preview-02.jpg" alt="Wiring preview" width="700">
 </p>
+# Bill of Materials
+
+## Core components
+
+| Item | Qty | Notes | AliExpress |
+|---|---:|---|---|
+| ESP32 development board | 1 | ESP32 DevKit style board | [Search](https://www.aliexpress.com/wholesale?SearchText=ESP32+development+board+CP2102) |
+| WS2812B LED strip, 5V | 1 | Choose the length / LED count closest to your build | [Search](https://www.aliexpress.com/wholesale?SearchText=WS2812B+5V+LED+strip+100+LEDs) |
+| Large arcade push button, green | 1 | Match your physical button size | [Search](https://www.aliexpress.com/wholesale?SearchText=arcade+push+button+green) |
+| Large arcade push button, yellow | 1 | Match your physical button size | [Search](https://www.aliexpress.com/wholesale?SearchText=arcade+push+button+yellow) |
+| Large arcade push button, blue | 1 | Match your physical button size | [Search](https://www.aliexpress.com/wholesale?SearchText=arcade+push+button+blue) |
+| Passive buzzer module | 1 | For simple tone output | [Search](https://www.aliexpress.com/wholesale?SearchText=passive+buzzer+module+5V) |
+| DC-DC buck converter | 1 | Useful if your power setup needs voltage regulation | [Search](https://www.aliexpress.com/wholesale?SearchText=LM2596+buck+converter) |
+| Perfboard / prototype board | 1 | For soldered wiring and final assembly | [Search](https://www.aliexpress.com/wholesale?SearchText=prototype+perfboard+pcb) |
+| Dupont jumper wires | 1 set | Male-female / female-female as needed | [Search](https://www.aliexpress.com/wholesale?SearchText=dupont+jumper+wires) |
+| 5V power supply | 1 | External 5V strongly recommended for LED strip | [Search](https://www.aliexpress.com/wholesale?SearchText=5V+power+supply+10A) |
+
+## Recommended protection / stability parts
+
+| Item | Qty | Notes | AliExpress |
+|---|---:|---|---|
+| 330Ω resistor | 1 | Optional on LED data line | [Search](https://www.aliexpress.com/wholesale?SearchText=330+ohm+resistor) |
+| 1000µF electrolytic capacitor | 1 | Optional across 5V and GND for strip stability | [Search](https://www.aliexpress.com/wholesale?SearchText=1000uF+electrolytic+capacitor+16V) |
+| Screw terminal block | 1 set | Useful for cleaner power connections | [Search](https://www.aliexpress.com/wholesale?SearchText=screw+terminal+block) |
+| Heat shrink tubing | 1 pack | Cleaner and safer cable finishing | [Search](https://www.aliexpress.com/wholesale?SearchText=heat+shrink+tube+kit) |
+
+## Build materials
+
+| Item | Qty | Notes | AliExpress |
+|---|---:|---|---|
+| Mounting board / enclosure base | 1 | Wood, acrylic, or PVC sheet depending on finish | [Search](https://www.aliexpress.com/wholesale?SearchText=PVC+sheet+DIY+panel) |
+| Cable ties / adhesive clips | 1 pack | Cable management | [Search](https://www.aliexpress.com/wholesale?SearchText=cable+clips+adhesive) |
+| USB cable for ESP32 | 1 | Depends on board connector type | [Search](https://www.aliexpress.com/wholesale?SearchText=USB+data+cable+ESP32) |
+
+## Firmware pin mapping reference
+
+| Function | ESP32 Pin |
+|---|---:|
+| LED strip data | GPIO 5 |
+| Blue button | GPIO 14 |
+| Green button | GPIO 27 |
+| Yellow button | GPIO 26 |
+| Buzzer | GPIO 25 |
+
+## Notes
+- Use a shared ground between the ESP32 and the LED strip.
+- Use an external 5V supply for the LED strip instead of powering a long strip directly from the ESP32.
+- The 330Ω resistor and 1000µF capacitor are recommended stability parts for addressable LED builds.
+- Button wiring in firmware uses internal pull-up logic.
+
 
 # Wiring and pinout
 

@@ -19,6 +19,14 @@ A real-time embedded game system prototyped in Python and implemented on ESP32 u
 
 ---
 
+## Hardware preview
+
+<p align="center">
+  <img src="hardware/wiring-preview.jpg" alt="Wiring preview" width="200">
+</p>
+
+---
+
 ## Quick links
 - [Firmware](firmware/esp32_led_boss_fight.ino)
 - [Hardware](hardware/README.md)

@@ -19,14 +19,6 @@ A real-time embedded game system prototyped in Python and implemented on ESP32 u
 
 ---
 
-## Hardware preview
-<h6 align="center">(I swear there’s an ESP32 under there)</h6>
-
-<p align="center">
-  <img src="hardware/wiring-preview-01.jpg" alt="Wiring preview" width="200">
-  <img src="hardware/wiring-preview-02.jpg" alt="Wiring preview" width="200">
-</p>
-
 <p align="center"><strong>See the project in action on social media! Support me if you found this project fun!</strong></p>
 
 <p align="center">
@@ -37,6 +29,18 @@ A real-time embedded game system prototyped in Python and implemented on ESP32 u
     <img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
   </a>
 </p>
+
+---
+
+## Hardware preview
+<h6 align="center">(I swear there’s an ESP32 under there)</h6>
+
+<p align="center">
+  <img src="hardware/wiring-preview-01.jpg" alt="Wiring preview" width="200">
+  <img src="hardware/wiring-preview-02.jpg" alt="Wiring preview" width="200">
+</p>
+
+
 
 ---
 

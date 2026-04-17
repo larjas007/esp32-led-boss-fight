@@ -36,16 +36,6 @@
 
 *Everything's available at Unit Electronic Shop in Centro Histórico CDMX
 
-## Firmware pin mapping reference
-
-| Function | ESP32 Pin |
-|---|---:|
-| LED strip data | GPIO 5 |
-| Blue button | GPIO 14 |
-| Green button | GPIO 27 |
-| Yellow button | GPIO 26 |
-| Buzzer | GPIO 25 |
-
 ## Notes
 - Use a shared ground between the ESP32 and the LED strip.
 - Use an external 5V supply for the LED strip instead of powering a long strip directly from the ESP32.

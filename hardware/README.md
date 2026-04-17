@@ -33,6 +33,8 @@
 | Screw terminal block | 1 set | Useful for cleaner power connections | [Search](https://www.aliexpress.com/wholesale?SearchText=screw+terminal+block) |
 | Heat shrink tubing | 1 pack | Cleaner and safer cable finishing | [Search](https://www.aliexpress.com/wholesale?SearchText=heat+shrink+tube+kit) |
 
+*Everything's available at Unit Electronic Shop in Centro Histórico CDMX
+
 ## Firmware pin mapping reference
 
 | Function | ESP32 Pin |

@@ -33,8 +33,12 @@ A real-time embedded game system prototyped in Python and implemented on ESP32 u
 </p>
 
 <p align="center">
-  [![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://vt.tiktok.com/ZSHvuQUue/)
-  [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/reel/DX0R08eD1mK/?igsh=YzhlYWJyamJ4bzRu)
+  <a href="https://vt.tiktok.com/ZSHvuQUue/">
+    <img alt="TikTok" src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white">
+  </a>
+  <a href="https://www.instagram.com/reel/DX0R08eD1mK/?igsh=YzhlYWJyamJ4bzRu">
+    <img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+  </a>
 </p>
 
 ---

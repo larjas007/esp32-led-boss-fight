@@ -21,6 +21,7 @@
 | Perfboard / prototype board | 1 | For soldered wiring and final assembly | [Search](https://www.aliexpress.com/wholesale?SearchText=prototype+perfboard+pcb) |
 | Dupont jumper wires | 1 set | Male-female / female-female as needed | [Search](https://www.aliexpress.com/wholesale?SearchText=dupont+jumper+wires) |
 | 5V power supply | 1 | External 5V strongly recommended for LED strip | [Search](https://www.aliexpress.com/wholesale?SearchText=5V+power+supply+10A) |
+
 *Everythings available at Unit Electronic Shop in Centro Histórico CDMX
 
 ## Recommended protection / stability parts

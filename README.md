@@ -28,8 +28,8 @@ A real-time embedded game system prototyped in Python and implemented on ESP32 u
 </p>
 
 <p align="center">
-  <a href="[PEGA_AQUI_LINK_DEL_TIKTOK](https://vt.tiktok.com/ZSHvuQUue/)">TikTok Demo</a> •
-  <a href="[PEGA_AQUI_LINK_DEL_REEL_DE_INSTAGRAM](https://www.instagram.com/reel/DXOR08eDlmK/?igsh=YzhlYWJyamJ4bzRu)">Instagram Reel</a> •
+  <a href="https://vt.tiktok.com/ZSHvuQUue/">TikTok Demo</a> •
+  <a href="https://www.instagram.com/reel/DX0R08eD1mK/?igsh=YzhlYWJyamJ4bzRu">Instagram Reel</a>
 </p>
 
 ---

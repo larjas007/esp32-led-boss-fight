@@ -19,7 +19,7 @@ A real-time embedded game system prototyped in Python and implemented on ESP32 u
 
 ---
 
-<h3 align="center">Hardware preview</h3>
+## Hardware preview
 <h6 align="center">(I swear there’s an ESP32 under there)</h6>
 
 <p align="center">

@@ -21,6 +21,7 @@
 | Perfboard / prototype board | 1 | For soldered wiring and final assembly | [Search](https://www.aliexpress.com/wholesale?SearchText=prototype+perfboard+pcb) |
 | Dupont jumper wires | 1 set | Male-female / female-female as needed | [Search](https://www.aliexpress.com/wholesale?SearchText=dupont+jumper+wires) |
 | 5V power supply | 1 | External 5V strongly recommended for LED strip | [Search](https://www.aliexpress.com/wholesale?SearchText=5V+power+supply+10A) |
+*Everythings available at Unit Electronic Shop in Centro Histórico CDMX
 
 ## Recommended protection / stability parts
 
@@ -30,14 +31,6 @@
 | 1000µF electrolytic capacitor | 1 | Optional across 5V and GND for strip stability | [Search](https://www.aliexpress.com/wholesale?SearchText=1000uF+electrolytic+capacitor+16V) |
 | Screw terminal block | 1 set | Useful for cleaner power connections | [Search](https://www.aliexpress.com/wholesale?SearchText=screw+terminal+block) |
 | Heat shrink tubing | 1 pack | Cleaner and safer cable finishing | [Search](https://www.aliexpress.com/wholesale?SearchText=heat+shrink+tube+kit) |
-
-## Build materials
-
-| Item | Qty | Notes | AliExpress |
-|---|---:|---|---|
-| Mounting board / enclosure base | 1 | Wood, acrylic, or PVC sheet depending on finish | [Search](https://www.aliexpress.com/wholesale?SearchText=PVC+sheet+DIY+panel) |
-| Cable ties / adhesive clips | 1 pack | Cable management | [Search](https://www.aliexpress.com/wholesale?SearchText=cable+clips+adhesive) |
-| USB cable for ESP32 | 1 | Depends on board connector type | [Search](https://www.aliexpress.com/wholesale?SearchText=USB+data+cable+ESP32) |
 
 ## Firmware pin mapping reference
 

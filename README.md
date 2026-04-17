@@ -7,6 +7,7 @@
 A real-time embedded game system prototyped in Python and implemented on ESP32 using WS2812B LEDs, button input, and event-driven audio.
 
 ---
+
 ## Prototype gallery
 
 <p align="center">
@@ -16,6 +17,7 @@ A real-time embedded game system prototyped in Python and implemented on ESP32 u
   <img src="gallery/prototype-06.jpg" alt="Prototype image 3" width="16%">
   <img src="gallery/prototype-07.jpg" alt="Prototype image 3" width="16%">
 </p>
+
 ---
 
 ## Quick links

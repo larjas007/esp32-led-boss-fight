@@ -14,8 +14,7 @@ A real-time embedded game system prototyped in Python and implemented on ESP32 u
   <img src="gallery/prototype-02.jpg" alt="Prototype image 1" width="16%">
   <img src="gallery/prototype-03.jpg" alt="Prototype image 2" width="16%">
   <img src="gallery/prototype-04.jpg" alt="Prototype image 3" width="16%">
-  <img src="gallery/prototype-06.jpg" alt="Prototype image 3" width="16%">
-  <img src="gallery/prototype-07.jpg" alt="Prototype image 3" width="16%">
+  <img src="gallery/fun-cat-shot.jpg" alt="Prototype image 3" width="16%">
 </p>
 
 ---

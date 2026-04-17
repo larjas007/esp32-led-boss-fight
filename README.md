@@ -7,6 +7,14 @@
 A real-time embedded game system prototyped in Python and implemented on ESP32 using WS2812B LEDs, button input, and event-driven audio.
 
 ---
+## Prototype gallery
+
+<p align="center">
+  <img src="gallery/prototype-01.jpg" alt="Prototype image 1" width="32%">
+  <img src="gallery/prototype-02.jpg" alt="Prototype image 2" width="32%">
+  <img src="gallery/prototype-03.jpg" alt="Prototype image 3" width="32%">
+</p>
+---
 
 ## Quick links
 - [Firmware](firmware/esp32_led_boss_fight.ino)

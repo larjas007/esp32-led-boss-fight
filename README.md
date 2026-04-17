@@ -1,7 +1,7 @@
 # ESP32 LED Boss Fight
 
 <p align="center">
-  <img src="assets/hero.png" alt="ESP32 LED Boss Fight hero image" width="900">
+  <img src="assets/hero.png" alt="ESP32 LED Boss Fight hero image" width="450">
 </p>
 
 A real-time embedded game system prototyped in Python and implemented on ESP32 using WS2812B LEDs, button input, and event-driven audio.

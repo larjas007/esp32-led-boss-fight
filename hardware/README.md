@@ -24,6 +24,7 @@
 | 5V power supply | 1 | External 5V strongly recommended for LED strip | [Search](https://www.aliexpress.com/wholesale?SearchText=5V+power+supply+10A) |
 
 *Everything's available at Unit Electronic Shop in Centro Histórico CDMX
+*I know blue and green aren't very contrasting, it woul've been red if they weren't sold ouy :(
 
 ## Recommended protection / stability parts
 

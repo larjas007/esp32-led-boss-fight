@@ -20,7 +20,7 @@
 | Passive buzzer module | 1 | For simple tone output | [Search](https://www.aliexpress.com/wholesale?SearchText=passive+buzzer+module+5V) |
 | DC-DC buck converter | 1 | Useful if your power setup needs voltage regulation | [Search](https://www.aliexpress.com/wholesale?SearchText=LM2596+buck+converter) |
 | Perfboard / prototype board | 1 | For soldered wiring and final assembly | [Search](https://www.aliexpress.com/wholesale?SearchText=prototype+perfboard+pcb) |
-| Dupont jumper wires | 1 set | Male-female / female-female as needed | [Search](https://www.aliexpress.com/wholesale?SearchText=dupont+jumper+wires) |
+| Dupont jumper wires | 1 set | Male-female / female-female *giggity as needed | [Search](https://www.aliexpress.com/wholesale?SearchText=dupont+jumper+wires) |
 | 5V power supply | 1 | External 5V strongly recommended for LED strip | [Search](https://www.aliexpress.com/wholesale?SearchText=5V+power+supply+10A) |
 
 *Everything's available at Unit Electronic Shop in Centro Histórico CDMX

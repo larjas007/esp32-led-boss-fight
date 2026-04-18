@@ -14,9 +14,9 @@
 |---|---:|---|---|
 | ESP32 development board | 1 | ESP32 DevKit style board | [Search](https://www.aliexpress.com/wholesale?SearchText=ESP32+development+board+CP2102) |
 | WS2812B LED strip, 5V | 1 | Choose the length / LED count closest to your build | [Search](https://www.aliexpress.com/wholesale?SearchText=WS2812B+5V+LED+strip+100+LEDs) |
-| Large arcade push button, green | 1 | Match your physical button size | [Search](https://www.aliexpress.com/wholesale?SearchText=arcade+push+button+green) |
-| Large arcade push button, yellow | 1 | Match your physical button size | [Search](https://www.aliexpress.com/wholesale?SearchText=arcade+push+button+yellow) |
-| Large arcade push button, blue | 1 | Match your physical button size | [Search](https://www.aliexpress.com/wholesale?SearchText=arcade+push+button+blue) |
+| Large arcade push button, green | 1 | It's a button, just press it! | [Search](https://www.aliexpress.com/wholesale?SearchText=arcade+push+button+green) |
+| Large arcade push button, yellow | 1 | Another button to press | [Search](https://www.aliexpress.com/wholesale?SearchText=arcade+push+button+yellow) |
+| Large arcade push button, blue | 1 | Button? press it! | [Search](https://www.aliexpress.com/wholesale?SearchText=arcade+push+button+blue) |
 | Passive buzzer module | 1 | For simple tone output | [Search](https://www.aliexpress.com/wholesale?SearchText=passive+buzzer+module+5V) |
 | DC-DC buck converter | 1 | Useful if your power setup needs voltage regulation | [Search](https://www.aliexpress.com/wholesale?SearchText=LM2596+buck+converter) |
 | Perfboard / prototype board | 1 | For soldered wiring and final assembly | [Search](https://www.aliexpress.com/wholesale?SearchText=prototype+perfboard+pcb) |

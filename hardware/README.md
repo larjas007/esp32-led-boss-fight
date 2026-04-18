@@ -25,7 +25,7 @@
 
 *Everything's available at Unit Electronic Shop in Centro Histórico CDMX
 
-*I know blue and green aren't very contrasting, it woul've been red if they weren't sold ouy :(
+*I know blue and green buttons aren't very contrasting, it woul've been red if they weren't sold ouy :(
 
 ## Recommended protection / stability parts
 

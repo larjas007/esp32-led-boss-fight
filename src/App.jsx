@@ -395,7 +395,7 @@ function App() {
 
         <div className="flex flex-wrap justify-center gap-4">
           <a
-            href="#demo"
+            href="https://www.tiktok.com/@luis.larjas/video/7629614159126105364?_r=1&_t=ZS-95bjJQ5EfIq"
             className="rounded-2xl bg-white px-6 py-3 font-semibold text-black transition hover:scale-105"
           >
             Watch Demo

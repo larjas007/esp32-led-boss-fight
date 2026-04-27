@@ -1,87 +1,150 @@
 # ESP32 LED Boss Fight
 
-Interactive web demo for my physical **ESP32 LED Boss Fight** arcade project.
+<p align="center">
+  <img src="assets/hero.png" alt="ESP32 LED Boss Fight hero image" width="450">
+</p>
 
-This project started as a real hardware game built with an **ESP32**, a **100-pixel WS2812B LED strip**, arcade buttons, and a buzzer.  
-This repository now includes a browser-based React demo that recreates the game logic visually.
+A real-time embedded game system prototyped in Python and implemented on ESP32 using WS2812B LEDs, button input, and event-driven audio.
 
-## Live Demo
+---
 
-[Play the web demo](https://larjas007.github.io/esp32-led-boss-fight/)
+## Prototype gallery
 
-## What it does
+<p align="center">
+  <img src="gallery/prototype-02.jpg" alt="Prototype image 1" width="16%">
+  <img src="gallery/prototype-03.jpg" alt="Prototype image 2" width="16%">
+  <img src="gallery/prototype-04.jpg" alt="Prototype image 3" width="16%">
+  <img src="gallery/fun-shot-cat.jpg" alt="Prototype image 3" width="8%">
+</p>
 
-A color-based arcade battle where the player shoots bullets across a 100-LED stage.
+---
 
-- Blue bullets destroy blue minions.
-- Red bullets destroy red minions.
-- Yellow bullets destroy yellow minions.
-- Wrong-color hits move the boss closer.
-- Minion waves increase in difficulty.
-- The boss loses HP after each cleared wave.
-- If enemies reach the player, the stage flashes red and resets.
-- Victory triggers when the boss is defeated.
+## Hardware preview
+<h6 align="center">(I swear there’s an ESP32 under there)</h6>
 
-## Tech Stack
+<p align="center">
+  <img src="hardware/wiring-preview-01.jpg" alt="Wiring preview" width="200">
+  <img src="hardware/wiring-preview-02.jpg" alt="Wiring preview" width="200">
+</p>
 
-- **React** — component-based frontend library.
-- **Vite** — fast development and build tool.
-- **Tailwind CSS** — utility-first styling system.
-- **JavaScript** — game logic, state, collision detection, and sound.
-- **Web Audio API** — generated arcade-style sound effects.
-- **GitHub Pages** — deployed public web demo.
-- **ESP32 / Arduino C++** — original hardware version.
+<p align="center">
+  <a href="https://vt.tiktok.com/ZSHvuQUue/">TikTok Demo</a> •
+  <a href="https://www.instagram.com/reel/DX0R08eD1mK/?igsh=YzhlYWJyamJ4bzRu">Instagram Reel</a>
+</p>
 
-## Original Hardware Concept
+<p align="center">
+  <a href="https://vt.tiktok.com/ZSHvuQUue/">
+    <img alt="TikTok" src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white">
+  </a>
+  <a href="https://www.instagram.com/reel/DX0R08eD1mK/?igsh=YzhlYWJyamJ4bzRu">
+    <img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+  </a>
+</p>
 
-The physical version uses:
+---
 
-| Component | Purpose |
-|---|---|
-| ESP32 | Main microcontroller |
-| WS2812B LED strip | 100-pixel game stage |
-| Arcade buttons | Player controls |
-| Passive buzzer | Sound feedback |
-| External 5V power supply | LED strip power |
+## Quick links
+- [Firmware](firmware/esp32_led_boss_fight.ino)
+- [Hardware](hardware/README.md)
+- [Gallery](gallery/README.md)
+- [Web Demo](web-demo/README.md)
 
-## Game Logic
+---
 
-The game uses several phases:
+## Portfolio highlights
+- Embedded systems development
+- Real-time game logic
+- Collision handling
+- Event-driven programming
+- Audio feedback systems
+- Hardware input integration
+- LED rendering and interaction
+- Rapid prototyping from Python to embedded hardware
+- Technical debugging and iteration
 
-| Phase | Description |
-|---|---|
-| `hiatus` | Rainbow idle animation |
-| `spawning` | Minions appear in front of the boss |
-| `playing` | Player shoots color-matching bullets |
-| `victory` | Boss defeated |
-| `gameOver` | Enemies reached the player |
+---
 
-Core logic includes:
+## Project overview
+This project started as a Python gameplay prototype and evolved into an ESP32-based interactive game using a 100-pixel WS2812B LED strip, three color-coded buttons, and buzzer-based sound feedback.
 
-- `useState` for game state.
-- `useEffect` for animation loops and timers.
-- Array-based bullets and minions.
-- Collision detection between bullets and enemies.
-- Boss movement and wave progression.
-- Generated sound effects using browser audio.
+The game combines:
+- boss and minion wave logic
+- color-matched projectiles
+- real-time collision handling
+- progressive difficulty scaling
+- event-based sound cues
+- simple but readable state-based architecture
 
-## Why I built this
+---
 
-I built this project to combine:
+## Core systems
 
-- Embedded systems
-- Physical arcade controls
-- LED animation
-- Game logic
-- Web visualization
-- Portfolio-ready frontend development
+### State machine
+The game is organized around three runtime phases:
+- `hiatus`
+- `spawning`
+- `playing`
 
-The goal was to turn a real ESP32 hardware project into something people can test directly in the browser.
+This structure keeps gameplay flow clear, modular, and easier to debug.
 
-## Screenshots / Gallery
+### Collision system
+Projectile positions are checked against minion positions in real time.
 
-Add screenshots or GIFs here:
+Behavior includes:
+- successful hit when projectile color matches enemy color
+- enemy removal on valid hit
+- penalty when colors do not match
+- penalty when a projectile exits the LED range without a hit
 
-```md
-![Web demo screenshot](./gallery/demo-screenshot.png)
-![Hardware prototype](./gallery/hardware-prototype.jpg)
+### Difficulty scaling
+The game becomes more difficult by reducing enemy movement delay after each cleared wave.
+
+This creates:
+- faster pacing
+- increased pressure
+- escalating challenge with the same control scheme
+
+### Audio feedback
+The buzzer is used for gameplay events including:
+- shooting
+- valid hit
+- failed hit or miss
+- boss intro
+- victory
+
+---
+
+## Technical skills demonstrated
+
+### Programming
+- C++
+- Python
+- JavaScript
+- HTML
+- CSS
+
+### Embedded and hardware
+- ESP32
+- Arduino-style firmware development
+- WS2812B LED control
+- button input handling
+- buzzer audio output
+
+### Engineering and design
+- real-time systems thinking
+- state-based logic
+- collision design
+- interaction design
+- iterative prototyping
+- hardware/software translation
+
+---
+
+## Repository structure
+
+```text
+firmware/    ESP32 implementation
+hardware/    wiring, pinout, schematics, and parts
+gallery/     photos and build images
+web-demo/    browser-playable showcase
+assets/      GIFs, screenshots, visual material

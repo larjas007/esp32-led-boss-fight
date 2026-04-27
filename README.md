@@ -19,7 +19,18 @@ A real-time embedded game system prototyped in Python and implemented on ESP32 u
 
 ---
 
-<p align="center"><strong>See the project in action on social media! Support me if you found this project fun!</strong></p>
+## Hardware preview
+<h6 align="center">(I swear there’s an ESP32 under there)</h6>
+
+<p align="center">
+  <img src="hardware/wiring-preview-01.jpg" alt="Wiring preview" width="200">
+  <img src="hardware/wiring-preview-02.jpg" alt="Wiring preview" width="200">
+</p>
+
+<p align="center">
+  <a href="https://vt.tiktok.com/ZSHvuQUue/">TikTok Demo</a> •
+  <a href="https://www.instagram.com/reel/DX0R08eD1mK/?igsh=YzhlYWJyamJ4bzRu">Instagram Reel</a>
+</p>
 
 <p align="center">
   <a href="https://vt.tiktok.com/ZSHvuQUue/">
@@ -32,18 +43,6 @@ A real-time embedded game system prototyped in Python and implemented on ESP32 u
 
 ---
 
-## Hardware preview
-<h6 align="center">(I swear there’s an ESP32 under there)</h6>
-
-<p align="center">
-  <img src="hardware/wiring-preview-01.jpg" alt="Wiring preview" width="200">
-  <img src="hardware/wiring-preview-02.jpg" alt="Wiring preview" width="200">
-</p>
-
-
-
----
-
 ## Quick links
 - [Firmware](firmware/esp32_led_boss_fight.ino)
 - [Hardware](hardware/README.md)
@@ -52,7 +51,7 @@ A real-time embedded game system prototyped in Python and implemented on ESP32 u
 
 ---
 
-## Highlights
+## Portfolio highlights
 - Embedded systems development
 - Real-time game logic
 - Collision handling
@@ -95,9 +94,10 @@ Behavior includes:
 - successful hit when projectile color matches enemy color
 - enemy removal on valid hit
 - penalty when colors do not match
+- penalty when a projectile exits the LED range without a hit
 
 ### Difficulty scaling
-The game becomes more difficult by increasing enemys speed after each cleared wave.
+The game becomes more difficult by reducing enemy movement delay after each cleared wave.
 
 This creates:
 - faster pacing
@@ -139,3 +139,12 @@ The buzzer is used for gameplay events including:
 - hardware/software translation
 
 ---
+
+## Repository structure
+
+```text
+firmware/    ESP32 implementation
+hardware/    wiring, pinout, schematics, and parts
+gallery/     photos and build images
+web-demo/    browser-playable showcase
+assets/      GIFs, screenshots, visual material

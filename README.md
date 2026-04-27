@@ -6,6 +6,16 @@
 
 A real-time embedded game system prototyped in Python and implemented on ESP32 using WS2812B LEDs, button input, and event-driven audio.
 
+<p align="center">
+  <a href="https://larjas007.github.io/esp32-led-boss-fight/">
+    <img alt="Play Web Demo" src="https://img.shields.io/badge/Play%20the%20Web%20Demo-Live%20Now-00C2FF?style=for-the-badge">
+  </a>
+</p>
+
+<p align="center">
+  <strong>Try the web demo in real time now.</strong>
+</p>
+
 ---
 
 ## Prototype gallery
@@ -137,14 +147,3 @@ The buzzer is used for gameplay events including:
 - interaction design
 - iterative prototyping
 - hardware/software translation
-
----
-
-## Repository structure
-
-```text
-firmware/    ESP32 implementation
-hardware/    wiring, pinout, schematics, and parts
-gallery/     photos and build images
-web-demo/    browser-playable showcase
-assets/      GIFs, screenshots, visual material

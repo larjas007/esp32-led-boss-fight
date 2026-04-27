@@ -8,7 +8,7 @@ A real-time embedded game system prototyped in Python and implemented on ESP32 u
 
 <p align="center">
   <a href="https://larjas007.github.io/esp32-led-boss-fight/">
-    <img alt="Play Web Demo" src="https://img.shields.io/badge/Play%20the%20Web%20Demo-Live%20Now-00C2FF?style=for-the-badge">
+    <img alt="Play Web Demo" src="https://img.shields.io/badge/Play%20the%20Web%20Demo-Play%20Now-00C2FF?style=for-the-badge">
   </a>
 </p>
 
